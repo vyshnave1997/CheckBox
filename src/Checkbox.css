@@ -1,0 +1,16 @@
+/* src/components/Checkbox.css */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space between checkboxes */
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and label */
+  transform: scale(1.5); /* Increase the size of the checkbox */
+}
+
+.checkbox-container label {
+  color: #ffffff; /* White text for dark background */
+  font-size: 16px;
+}
